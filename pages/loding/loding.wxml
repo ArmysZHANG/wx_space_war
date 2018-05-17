@@ -1,0 +1,4 @@
+<view>
+  <audio src="{{loding_music}}" action="{{action}}" loop id="audio"></audio>
+  <canvas canvas-id="lodingId" style="height:{{ windowHeight }}; width:{{windowWidth}}" bindtouchstart='click'></canvas>
+</view>
